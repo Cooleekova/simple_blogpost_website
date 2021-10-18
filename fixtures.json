@@ -1,0 +1,471 @@
+[
+   {
+      "model":"admin.logentry",
+      "pk":1,
+      "fields":{
+         "action_time":"2021-10-18T09:35:49.521Z",
+         "user":1,
+         "content_type":4,
+         "object_id":"2",
+         "object_repr":"Ivan",
+         "action_flag":1,
+         "change_message":"[{\"added\": {}}]"
+      }
+   },
+   {
+      "model":"admin.logentry",
+      "pk":2,
+      "fields":{
+         "action_time":"2021-10-18T09:35:51.575Z",
+         "user":1,
+         "content_type":4,
+         "object_id":"2",
+         "object_repr":"Ivan",
+         "action_flag":2,
+         "change_message":"[]"
+      }
+   },
+   {
+      "model":"admin.logentry",
+      "pk":3,
+      "fields":{
+         "action_time":"2021-10-18T09:36:03.731Z",
+         "user":1,
+         "content_type":4,
+         "object_id":"3",
+         "object_repr":"Maria",
+         "action_flag":1,
+         "change_message":"[{\"added\": {}}]"
+      }
+   },
+   {
+      "model":"admin.logentry",
+      "pk":4,
+      "fields":{
+         "action_time":"2021-10-18T09:36:18.639Z",
+         "user":1,
+         "content_type":7,
+         "object_id":"1",
+         "object_repr":"Изменения в ПДД в 2021 году",
+         "action_flag":1,
+         "change_message":"[{\"added\": {}}]"
+      }
+   },
+   {
+      "model":"admin.logentry",
+      "pk":5,
+      "fields":{
+         "action_time":"2021-10-18T09:36:33.267Z",
+         "user":1,
+         "content_type":7,
+         "object_id":"2",
+         "object_repr":"Как избежать мошенничества с банковскими картами",
+         "action_flag":1,
+         "change_message":"[{\"added\": {}}]"
+      }
+   },
+   {
+      "model":"auth.permission",
+      "pk":1,
+      "fields":{
+         "name":"Can add log entry",
+         "content_type":1,
+         "codename":"add_logentry"
+      }
+   },
+   {
+      "model":"auth.permission",
+      "pk":2,
+      "fields":{
+         "name":"Can change log entry",
+         "content_type":1,
+         "codename":"change_logentry"
+      }
+   },
+   {
+      "model":"auth.permission",
+      "pk":3,
+      "fields":{
+         "name":"Can delete log entry",
+         "content_type":1,
+         "codename":"delete_logentry"
+      }
+   },
+   {
+      "model":"auth.permission",
+      "pk":4,
+      "fields":{
+         "name":"Can view log entry",
+         "content_type":1,
+         "codename":"view_logentry"
+      }
+   },
+   {
+      "model":"auth.permission",
+      "pk":5,
+      "fields":{
+         "name":"Can add permission",
+         "content_type":2,
+         "codename":"add_permission"
+      }
+   },
+   {
+      "model":"auth.permission",
+      "pk":6,
+      "fields":{
+         "name":"Can change permission",
+         "content_type":2,
+         "codename":"change_permission"
+      }
+   },
+   {
+      "model":"auth.permission",
+      "pk":7,
+      "fields":{
+         "name":"Can delete permission",
+         "content_type":2,
+         "codename":"delete_permission"
+      }
+   },
+   {
+      "model":"auth.permission",
+      "pk":8,
+      "fields":{
+         "name":"Can view permission",
+         "content_type":2,
+         "codename":"view_permission"
+      }
+   },
+   {
+      "model":"auth.permission",
+      "pk":9,
+      "fields":{
+         "name":"Can add group",
+         "content_type":3,
+         "codename":"add_group"
+      }
+   },
+   {
+      "model":"auth.permission",
+      "pk":10,
+      "fields":{
+         "name":"Can change group",
+         "content_type":3,
+         "codename":"change_group"
+      }
+   },
+   {
+      "model":"auth.permission",
+      "pk":11,
+      "fields":{
+         "name":"Can delete group",
+         "content_type":3,
+         "codename":"delete_group"
+      }
+   },
+   {
+      "model":"auth.permission",
+      "pk":12,
+      "fields":{
+         "name":"Can view group",
+         "content_type":3,
+         "codename":"view_group"
+      }
+   },
+   {
+      "model":"auth.permission",
+      "pk":13,
+      "fields":{
+         "name":"Can add user",
+         "content_type":4,
+         "codename":"add_user"
+      }
+   },
+   {
+      "model":"auth.permission",
+      "pk":14,
+      "fields":{
+         "name":"Can change user",
+         "content_type":4,
+         "codename":"change_user"
+      }
+   },
+   {
+      "model":"auth.permission",
+      "pk":15,
+      "fields":{
+         "name":"Can delete user",
+         "content_type":4,
+         "codename":"delete_user"
+      }
+   },
+   {
+      "model":"auth.permission",
+      "pk":16,
+      "fields":{
+         "name":"Can view user",
+         "content_type":4,
+         "codename":"view_user"
+      }
+   },
+   {
+      "model":"auth.permission",
+      "pk":17,
+      "fields":{
+         "name":"Can add content type",
+         "content_type":5,
+         "codename":"add_contenttype"
+      }
+   },
+   {
+      "model":"auth.permission",
+      "pk":18,
+      "fields":{
+         "name":"Can change content type",
+         "content_type":5,
+         "codename":"change_contenttype"
+      }
+   },
+   {
+      "model":"auth.permission",
+      "pk":19,
+      "fields":{
+         "name":"Can delete content type",
+         "content_type":5,
+         "codename":"delete_contenttype"
+      }
+   },
+   {
+      "model":"auth.permission",
+      "pk":20,
+      "fields":{
+         "name":"Can view content type",
+         "content_type":5,
+         "codename":"view_contenttype"
+      }
+   },
+   {
+      "model":"auth.permission",
+      "pk":21,
+      "fields":{
+         "name":"Can add session",
+         "content_type":6,
+         "codename":"add_session"
+      }
+   },
+   {
+      "model":"auth.permission",
+      "pk":22,
+      "fields":{
+         "name":"Can change session",
+         "content_type":6,
+         "codename":"change_session"
+      }
+   },
+   {
+      "model":"auth.permission",
+      "pk":23,
+      "fields":{
+         "name":"Can delete session",
+         "content_type":6,
+         "codename":"delete_session"
+      }
+   },
+   {
+      "model":"auth.permission",
+      "pk":24,
+      "fields":{
+         "name":"Can view session",
+         "content_type":6,
+         "codename":"view_session"
+      }
+   },
+   {
+      "model":"auth.permission",
+      "pk":25,
+      "fields":{
+         "name":"Can add Запись",
+         "content_type":7,
+         "codename":"add_post"
+      }
+   },
+   {
+      "model":"auth.permission",
+      "pk":26,
+      "fields":{
+         "name":"Can change Запись",
+         "content_type":7,
+         "codename":"change_post"
+      }
+   },
+   {
+      "model":"auth.permission",
+      "pk":27,
+      "fields":{
+         "name":"Can delete Запись",
+         "content_type":7,
+         "codename":"delete_post"
+      }
+   },
+   {
+      "model":"auth.permission",
+      "pk":28,
+      "fields":{
+         "name":"Can view Запись",
+         "content_type":7,
+         "codename":"view_post"
+      }
+   },
+   {
+      "model":"auth.user",
+      "pk":1,
+      "fields":{
+         "password":"pbkdf2_sha256$260000$pKBzMbkdrmrEgCKDsDYvfb$MPzgZ1GNIqdx29avvw2USvDrpKzBc/vMYD7mhBS4LkI=",
+         "last_login":"2021-10-18T09:35:30.079Z",
+         "is_superuser":true,
+         "username":"admin",
+         "first_name":"",
+         "last_name":"",
+         "email":"admin@example.com",
+         "is_staff":true,
+         "is_active":true,
+         "date_joined":"2021-10-18T09:35:06.849Z",
+         "groups":[
+
+         ],
+         "user_permissions":[
+
+         ]
+      }
+   },
+   {
+      "model":"auth.user",
+      "pk":2,
+      "fields":{
+         "password":"pbkdf2_sha256$260000$ecKW7sMHjQZDnm03D9P9nq$+AhcQ6mbdTkZdgDp4YeUlul7VhPqB6YM5i2jEeyjdw0=",
+         "last_login":null,
+         "is_superuser":false,
+         "username":"Ivan",
+         "first_name":"",
+         "last_name":"",
+         "email":"",
+         "is_staff":false,
+         "is_active":true,
+         "date_joined":"2021-10-18T09:35:49Z",
+         "groups":[
+
+         ],
+         "user_permissions":[
+
+         ]
+      }
+   },
+   {
+      "model":"auth.user",
+      "pk":3,
+      "fields":{
+         "password":"pbkdf2_sha256$260000$v6fHmOspa20AykI84nONvI$0MLXjve2Lx5T/BB1B+IUg8thvr8w//fJPm7wTP4WzR8=",
+         "last_login":"2021-10-18T09:36:54.981Z",
+         "is_superuser":false,
+         "username":"Maria",
+         "first_name":"",
+         "last_name":"",
+         "email":"",
+         "is_staff":false,
+         "is_active":true,
+         "date_joined":"2021-10-18T09:36:03.590Z",
+         "groups":[
+
+         ],
+         "user_permissions":[
+
+         ]
+      }
+   },
+   {
+      "model":"contenttypes.contenttype",
+      "pk":1,
+      "fields":{
+         "app_label":"admin",
+         "model":"logentry"
+      }
+   },
+   {
+      "model":"contenttypes.contenttype",
+      "pk":2,
+      "fields":{
+         "app_label":"auth",
+         "model":"permission"
+      }
+   },
+   {
+      "model":"contenttypes.contenttype",
+      "pk":3,
+      "fields":{
+         "app_label":"auth",
+         "model":"group"
+      }
+   },
+   {
+      "model":"contenttypes.contenttype",
+      "pk":4,
+      "fields":{
+         "app_label":"auth",
+         "model":"user"
+      }
+   },
+   {
+      "model":"contenttypes.contenttype",
+      "pk":5,
+      "fields":{
+         "app_label":"contenttypes",
+         "model":"contenttype"
+      }
+   },
+   {
+      "model":"contenttypes.contenttype",
+      "pk":6,
+      "fields":{
+         "app_label":"sessions",
+         "model":"session"
+      }
+   },
+   {
+      "model":"contenttypes.contenttype",
+      "pk":7,
+      "fields":{
+         "app_label":"posts",
+         "model":"post"
+      }
+   },
+   {
+      "model":"sessions.session",
+      "pk":"1z6q2ifn7vc55aj7bdu2qexmfqhj00vp",
+      "fields":{
+         "session_data":".eJxVjDsOwjAQBe_iGln-fyjpOYO167VxADlSnFSIu0OkFNC-mXkvlmBbW9pGWdJE7Mw0O_1uCPlR-g7oDv028zz3dZmQ7wo_6ODXmcrzcrh_Bw1G-9Zooy3Rl1iVcIQmAGgFNksvZaAqgs_Ko6aSM0kjHWhbfQxSCHQKDbL3B-Z_N8w:1mcP4g:sRdVkZycd01NpNMWC--mpP5fplfISAC70h4MwHLuEtg",
+         "expire_date":"2021-11-01T09:36:54.983Z"
+      }
+   },
+   {
+      "model":"posts.post",
+      "pk":1,
+      "fields":{
+         "creator":2,
+         "title":"Изменения в ПДД в 2021 году",
+         "text":"С 1 сентября перестал действовать переходный период для отказа от таблички 8.23 «Фотовидеофиксация». Вместо него будет действовать новый дорожный знак 6.22 «Фотовидеофиксация». Соответствующие изменения уже появились в ПДД 1 марта 2021 года. Хотя и старая табличка и новый знак выглядят одинаково, смысл у них разный. Раньше таблички информировали автомобилистов о каждой дорожной камере на пути. Работали они обычно в паре с другими табличками, которые, к примеру, указывали расстояние до комплекса фиксации. У нового знака больше полномочий: он не будет предупреждать о каждой камере, а будет действовать на всю зону контроля в целом. Причем речь тут не только о стационарных комплексах, но и о треногах и специальных автомобилях с камерами на крышах.",
+         "created_at":"2021-10-18T09:36:18.638Z",
+         "updated_at":"2021-10-18T09:36:18.638Z"
+      }
+   },
+   {
+      "model":"posts.post",
+      "pk":2,
+      "fields":{
+         "creator":3,
+         "title":"Как избежать мошенничества с банковскими картами",
+         "text":"Никому не сообщайте секретные данные карт, даже сотрудникам банка Проверяйте компьютер на вирусы и вводите данные карт с помощью виртуальной клавиатуры Внимательно следите за бесконтактными картами Не выпускайте карту из рук без необходимости, если передаете ее другому лицу - внимательно следите за ней.",
+         "created_at":"2021-10-18T09:36:33.266Z",
+         "updated_at":"2021-10-18T09:36:33.266Z"
+      }
+   }
+]

@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+{% block body %}
+
+
+<div class="col-md-12 text-center">
+    <h2>Добавить новую запись</h2>
+    <br/>
+    <div class="form-group">
+        <form method="POST">
+            {% csrf_token %}
+            <h4>Заголовок {{ form.title }}</h4>
+            <br/>
+            <h3>Текст: <br/><br/> {{ form.text }}</h3>
+            <br/>
+            <h6 class="text-black-50">Автор статьи: {{ form.creator }}</h6>
+            <br/><br/>
+            <button class="btn btn-primary">Сохранить</button>
+        </form>
+    </div>
+</div>
+
+{% endblock %}
+{% endblock %}
+
+

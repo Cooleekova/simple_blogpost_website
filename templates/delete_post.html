@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+{% block body %}
+
+<div class="col-md-12 text-center">
+    <h2>Удалить запись?</h2>
+    <br/>
+    <h4>{{ post.title }}</h4>
+<br/>
+    <div class="form-group">
+        <form method="POST">
+            {% csrf_token %}
+            <strong>Вы уверены, что хотите удалить запись?</strong>
+            <br/><br/>
+            <button class="btn btn-danger">ДА</button>
+        </form>
+    </div>
+</div>
+
+{% endblock %}
+{% endblock %}
+
+

@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+{% block body %}
+
+<div>
+    <br/>
+    <a href="{% url 'posts:add_post' %}"><button type="button" class="btn btn-primary btn-lg">Добавить новую запись </button></a>
+</div>
+
+<div class="col-md-12 text-center">
+        <h1>Все записи</h1>
+        <hr class="mt-0 mb-4">
+</div>
+<div>
+    {% for post in object_list %}
+        <ul class="list-group list-group-flush">
+             <li class="list-group-item list-group-item-success"><h4>{{ post.title }}<span class="badge bg-secondary">(Автор: {{ post.creator }})</span></h4></li>
+             <li class="list-group-item"> {{ post.text }}</li>
+        </ul>
+        {% if user == post.creator %}
+                <button type="button" class="btn btn-danger"><a href="{% url 'posts:delete_post' post.pk %}">Удалить</a></button>
+                <button type="button" class="btn btn-warning"><a href="{% url 'posts:update_post' post.pk %}">Редактировать</a></button>
+        {% endif %}
+        <hr class="mt-0 mb-4">
+    {% endfor %}
+</div>
+
+{% endblock %}
+{% endblock %}
