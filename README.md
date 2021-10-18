@@ -8,11 +8,11 @@
 
 Cоздать базу данных в postgres и осуществить миграцию:
 
-`manage.py migrate`
+`python manage.py migrate`
 
 Загрузить тестовые данные:
 
-`manage.py loaddata`
+`python manage.py loaddata fixtures.json`
 
 Выполнить команду:
 
