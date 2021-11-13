@@ -1,13 +1,20 @@
 import pytest
-# from django.urls import reverse
-# from rest_framework.status import HTTP_302_FOUND
-from django.contrib.auth.models import User
+from django.urls import reverse
+from rest_framework.status import HTTP_302_FOUND
+# from django.contrib.auth.models import User
 
 
 @pytest.mark.django_db
-def test_user_create():
-    User.objects.create_user('john', 'lennon@thebeatles.com', 'johnpassword')
-    assert User.objects.count() == 1
+def test_view(client):
+    url = reverse("posts:posts")
+    response = client.get(url)
+    assert response.status_code == HTTP_302_FOUND
+
+
+# @pytest.mark.django_db
+# def test_user_create():
+#     User.objects.create_user('john', 'lennon@thebeatles.com', 'johnpassword')
+#     assert User.objects.count() == 1
 
 
 #
