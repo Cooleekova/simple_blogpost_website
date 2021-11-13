@@ -1,5 +1,6 @@
-Django
-djangorestframework
+Django~=3.2.3
+djangorestframework~=3.12.1
 psycopg2
-django-debug-toolbar
-python-dotenv
+django-debug-toolbar~=3.2.2
+python-dotenv~=0.17.1
+pytest~=6.2.4

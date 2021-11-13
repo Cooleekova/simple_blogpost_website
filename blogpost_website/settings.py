@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'blogpost_website.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'blogpost',
+        'NAME': 'testtesttest',
         'USER': user,
         'PASSWORD': password,
         'HOST': '127.0.0.1',
