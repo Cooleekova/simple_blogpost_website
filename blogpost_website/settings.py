@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
+import django_heroku
 import os
 from dotenv_file import secret_key, user, password
 
@@ -136,3 +137,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/posts/home'
+
+
+django_heroku.settings(locals())
