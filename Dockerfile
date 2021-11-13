@@ -34,7 +34,7 @@ RUN pip install -r requirements.txt
 COPY . .
 
 # Run application
-CMD gunicorn config.wsgi:application
+CMD gunicorn blogpost_website.wsgi:application
 
 
 
