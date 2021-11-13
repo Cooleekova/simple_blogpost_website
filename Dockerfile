@@ -20,17 +20,6 @@ RUN apt-get update -y && \
     apt-get install -y nodejs &&\
     rm -rf /var/lib/apt/lists/*
 
-# start to compile front-end stuff
-WORKDIR blogpost_website/static_src
-
-# Install front-end dependencies.
-COPY ./blogpost_website/static_src/package.json ./django_heroku/static_src/package-lock.json ./
-RUN npm install
-
-# Run custom npm commadn to compile static assets such as js, SCSS
-COPY ./blogpost_website/static_src/ ./
-RUN npm run build:prod
-
 # Install Gunicorn.
 RUN pip install "gunicorn>=19.8,<19.9"
 
