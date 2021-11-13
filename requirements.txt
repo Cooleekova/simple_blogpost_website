@@ -8,3 +8,4 @@ pytest-django
 model_bakery
 gunicorn
 django-heroku
+whitenoise
