@@ -1,5 +1,5 @@
 # Please remember to rename django_heroku to your project directory name
-FROM python:3.6-stretch
+FROM python:3-onbuild
 
 # WORKDIR sets the working directory for docker instructions, please not use cd
 WORKDIR /app
