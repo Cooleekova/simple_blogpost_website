@@ -13,4 +13,3 @@ def post_factory():
     def factory(**kwargs):
         return baker.make('Post', **kwargs)
     return factory
-
